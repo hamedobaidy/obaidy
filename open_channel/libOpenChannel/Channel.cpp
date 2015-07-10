@@ -18,4 +18,8 @@ Channel::~Channel() {
 	// TODO Auto-generated destructor stub
 }
 
+double Channel::compute_normal_depth() {
+	return 0.0;
+}
+
 } /* namespace obaidy */

@@ -14,6 +14,8 @@ class Channel {
 public:
 	Channel();
 	virtual ~Channel();
+
+	double compute_normal_depth();
 };
 
 } /* namespace obaidy */
