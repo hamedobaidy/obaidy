@@ -62,4 +62,5 @@ void Channel::setWettedPerimeter(double wettedPerimeter) {
 } /* namespace obaidy */
 
 double obaidy::Channel::compute_critical_depth() {
+	return 0.0;
 }
