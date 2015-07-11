@@ -8,7 +8,7 @@ lib_LTLIBRARIES = libOpenChannel.la
 # Build information for each library
 
 # Sources for libOpenChannel
-libOpenChannel_la_SOURCES = libOpenChannel.c
+libOpenChannel_la_SOURCES = libOpenChannel.c Channel.cpp
 
 # Linker options libTestProgram
 libOpenChannel_la_LDFLAGS = 

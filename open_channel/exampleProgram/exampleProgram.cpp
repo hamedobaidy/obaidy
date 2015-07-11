@@ -13,9 +13,17 @@
  ============================================================================
  */
 
-#include "libOpenChannel.h"
+#include <iostream>
 
-int main(void) {
-  print_hello();
+#include "Channel.h"
+
+using namespace obaidy;
+
+int main() {
+  Channel channel;
+  double y = channel.compute_normal_depth();
+
+  std::cout << "Normal depth: " << y << std::endl;
+
   return 0;
 }

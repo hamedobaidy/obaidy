@@ -1,0 +1,6 @@
+libOpenChannel_la-Channel.lo: Channel.cpp /usr/include/stdc-predef.h \
+ ../include/Channel.h
+
+/usr/include/stdc-predef.h:
+
+../include/Channel.h:

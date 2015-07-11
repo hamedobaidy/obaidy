@@ -18,7 +18,7 @@ noinst_PROGRAMS=exampleProgram
 ACLOCAL_AMFLAGS=-I ../m4
 
 # Sources for the a.out 
-exampleProgram_SOURCES= exampleProgram.c
+exampleProgram_SOURCES= exampleProgram.cpp
 
 # Libraries for a.out
 exampleProgram_LDADD = $(top_srcdir)/libOpenChannel/libOpenChannel.la
