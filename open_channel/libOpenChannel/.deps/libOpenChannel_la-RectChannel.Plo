@@ -1,0 +1,8 @@
+libOpenChannel_la-RectChannel.lo: RectChannel.cpp \
+ /usr/include/stdc-predef.h ../include/RectChannel.h ../include/Channel.h
+
+/usr/include/stdc-predef.h:
+
+../include/RectChannel.h:
+
+../include/Channel.h:

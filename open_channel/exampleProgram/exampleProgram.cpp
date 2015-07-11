@@ -16,6 +16,7 @@
 #include <iostream>
 
 #include "Channel.h"
+#include "RectChannel.h"
 
 using namespace obaidy;
 
@@ -24,6 +25,10 @@ int main() {
   double y = channel.compute_normal_depth();
 
   std::cout << "Normal depth: " << y << std::endl;
+
+  RectChannel rect;
+  rect.setBase(10.0);
+  std::cout << "Rectangular channel with base width = " << rect.getBase() << std::endl;
 
   return 0;
 }

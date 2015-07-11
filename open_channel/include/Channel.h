@@ -10,12 +10,31 @@
 
 namespace obaidy {
 
+/**
+ * General Channel class
+ */
 class Channel {
 public:
 	Channel();
 	virtual ~Channel();
 
-	double compute_normal_depth();
+	virtual double compute_normal_depth();
+	virtual double compute_critical_depth();
+
+	double getArea() const;
+	void setArea(double area);
+	double getSlope() const;
+	void setSlope(double slope);
+	double getTopWidth() const;
+	void setTopWidth(double topWidth);
+	double getWettedPerimeter() const;
+	void setWettedPerimeter(double wettedPerimeter);
+
+private:
+	double area;
+	double wettedPerimeter;
+	double topWidth;
+	double slope;
 };
 
 } /* namespace obaidy */

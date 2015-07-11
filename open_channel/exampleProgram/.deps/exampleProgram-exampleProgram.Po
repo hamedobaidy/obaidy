@@ -73,7 +73,8 @@ exampleProgram-exampleProgram.o: exampleProgram.cpp \
  /usr/include/c++/4.8/bits/locale_facets.tcc \
  /usr/include/c++/4.8/bits/basic_ios.tcc \
  /usr/include/c++/4.8/bits/ostream.tcc /usr/include/c++/4.8/istream \
- /usr/include/c++/4.8/bits/istream.tcc ../include/Channel.h
+ /usr/include/c++/4.8/bits/istream.tcc ../include/Channel.h \
+ ../include/RectChannel.h ../include/Channel.h
 
 /usr/include/stdc-predef.h:
 
@@ -262,5 +263,9 @@ exampleProgram-exampleProgram.o: exampleProgram.cpp \
 /usr/include/c++/4.8/istream:
 
 /usr/include/c++/4.8/bits/istream.tcc:
+
+../include/Channel.h:
+
+../include/RectChannel.h:
 
 ../include/Channel.h:
